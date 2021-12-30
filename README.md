@@ -1,14 +1,11 @@
 # CLI-copy-file
-A simple tools to copy file log and convert to txt or json extension via CLI
-
-
-# Simple API for Movies App 
 
 ## Table of contents
 * [General info](#general-info)
 * [Built With](#built-with)
 * [Requirements](#requirements)
 * [Setup](#setup)
+* [Screenshot](#screenshot)
 * [Contact](#contact)
 * [Contributors](#contributors)
 
@@ -31,6 +28,9 @@ Steps to run this project:
  - Run ```npm install```
  - Then run ```npm link``` to link app
  - And then run ```copy-file <file> -t <fileType> (text/json) -o <output location>``` e.g., ```copy-file /var/log/error.log -t text -o /home/xlog.txt```
+
+## Screenshot
+<img src=https://user-images.githubusercontent.com/48039021/147723092-81787935-aa46-436b-8a4d-9b8579c54abf.png width="800px" />
 
 ## Contact
 
