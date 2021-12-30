@@ -23,8 +23,8 @@ Project is created with:
 ## Setup
 Steps to run this project:
 
- - Clone this project ```git clone https://github.com/kurniawandenyy/CLI-copy-file.git```
- - Open terminal and go to your apps directory
+ - Open terminal and clone this project ```git clone https://github.com/kurniawandenyy/CLI-copy-file.git```
+ - go to your apps directory
  - Run ```npm install```
  - Then run ```npm link``` to link app
  - And then run ```copy-file <file> -t <fileType> (text/json) -o <output location>``` e.g., ```copy-file /var/log/error.log -t text -o /home/xlog.txt```
