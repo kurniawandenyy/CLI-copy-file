@@ -1,7 +1,7 @@
 #! /usr/bin/env node
-import { Command, Option } from 'commander'
-import fs from 'fs'
-import path from 'path'
+const { Command, Option } = require('commander')
+const fs = require('fs')
+const path = require('path')
 
 const program = new Command()
 
