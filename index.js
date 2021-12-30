@@ -30,7 +30,7 @@ program
                 return console.log('Invalid file extension')
             } else {
                 //remove extension
-                output = path.parse(options.output).dir + path.parse(options.output).name
+                output = path.parse(options.output).dir + '/' + path.parse(options.output).name
             }
         } else {
             output += path.parse(path.basename(file, '.*')).name
